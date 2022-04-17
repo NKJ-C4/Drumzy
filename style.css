@@ -52,3 +52,48 @@ footer{
     padding: 9px 20px;
     text-align: center;
 }
+
+@media screen and (max-width: 1100px){
+    .keys {
+        display: flex;
+        flex: 1;
+        min-height: 100vh;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+    
+      .key {
+        border: 4px solid black;
+        border-radius: 5px;
+        margin: 2px;
+        font-size: 0.5rem;
+        padding: 1rem .5rem;
+        transition: all 0.07s;
+        width: 124px;
+        text-align: center;
+        color: white;
+        background: rgba(0,0,0,0.7);
+        text-shadow: 0 0 5px black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      kbd {
+        display: block;
+        font-size: 40px;
+      }
+    
+    .playing{
+        transform: scale(1.1);
+        border-color: #1DA1F2;
+        box-shadow: 0 0 1rem #1DA1F2;
+    }
+    
+    .sound {
+        font-size: 15px;
+        text-transform: uppercase;
+        letter-spacing: .1rem;
+        color: #1DA1F2;
+      }
+}
